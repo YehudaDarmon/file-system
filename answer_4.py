@@ -8,4 +8,3 @@ def print_files(path):
             print(file)
         elif os.path.isdir(file):
             print_files(file)
-
